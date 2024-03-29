@@ -1,0 +1,508 @@
+.App{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    margin-left: 600px;
+}
+
+.item{
+    margin-right:35px;
+    margin-top: 25px;
+    color: #1E1F4B;
+}
+
+.headers-items{
+    display: flex;
+}
+
+.go-business-logo{
+    display: flex;
+}
+
+.eclipse-83{
+    height:30px;
+    margin-top: 30px;
+    margin-right: 0px;
+    padding: 0px;
+}
+
+.eclipse-82{
+    height:12px;
+    margin-top: 40px;
+    width: 12px;
+    margin-right: 80px;
+    margin-left: 0px;
+    padding: 5px;
+}
+
+.heading-gobusiness{  
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    padding: 0px;
+    color: #1E1F4B;
+    margin-left: 0px;
+}
+
+.try-btn{
+    color:#ffffff;
+    background-color: #706FE5;
+    border-radius: 15px;
+    border: 0px solid;
+    width:120px;
+    height:30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.referral-dashboard{
+    display: flex;
+    margin-top: 30px;
+}
+
+.referral-heading{
+    color:#151D48;
+    font-family: "Poppins";
+    font-size: 26px;
+    font-weight: 600;
+    margin-top: 30px;
+    
+}
+
+.search-box{
+    background-color: #F9FAFB;
+    border: 0px solid;
+    padding:10px;
+    margin-left: 5px;
+}
+
+.search-cont{
+    display: flex;
+    width:300px;
+    background-color: #F9FAFB;
+    height:40px;
+    border-radius: 9px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.search-image{
+    height:15px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.search-button{
+    color:#ffffff;
+    background-color: #706FE5;
+    border-radius: 10px;
+    border: 0px solid;
+    width:120px;
+    height:40px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+
+.notification-image{
+    height:40px;
+    margin-top: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.profile-cont{
+    margin-left: 10px;
+}
+ 
+.name{
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-top: 25px;
+    color:#151D48;
+    line-height: 20px;
+    width:400;
+}
+
+.admin{
+    padding: 0px;
+    margin-top: 4px;
+    font-family: "Poppins";
+    color:#737791;
+}
+
+.down-arrow-image{
+    height: 9px;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.money-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:60%;
+}
+
+.money-card{
+    background-image: linear-gradient(#8E54E9,#4776E6);
+    height:70px;
+    width:180px;
+    align-content: center;
+    display: flex;
+    padding: 10px;
+    border-radius: 9px;
+    margin:10px;
+}
+
+.money-image{
+    height:50px;
+    width:50px;
+    margin-top: 10px;
+}
+
+.price-cont{
+    display: flex;
+    flex-direction: column;
+}
+
+.price{
+    color:#ffffff;
+    font-family: "Yantramanav";
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+}
+
+.price-desc{
+    color:#ffffff;
+    font-weight: 400;
+    font-family: "Yantramanav";
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+.services-heading{
+    margin-left: 40px;
+    color:#888888;
+    font-family: "Yantramanav";
+}
+
+.service-para{
+    background: linear-gradient(to right,#8E54E9,#4776E6);
+    -webkit-text-fill-color: transparent; 
+    background-clip: text;
+    font-weight: bold;
+    font-family: "Yantramanav";
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.referrals-cont{
+    border: 2px dashed #888888;
+    width:55%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding:10px;
+}
+
+.service-para1{
+    margin-left: 60px;
+}
+
+.refer-friends-underline{
+    display: flex;
+    flex-direction: column;
+    align-self: self-start;
+    margin-left: 328px;
+}
+
+.refer-friends{
+    color:#49596D;
+    font-family: "Yantramanav";
+    font-size: 24px;
+    text-align: left;
+    
+}
+
+.underline {
+    border-bottom: 1px solid #4776E6;
+    width: 180%; 
+}
+
+.referal-link-input{
+    display: flex;
+    width: 55%;
+}
+.referal-link{
+    margin-top:10px;
+    display: flex;
+}
+
+.referal-text{
+    width:60%;
+    height:30px;
+    border-radius: 25px;
+    border:1px solid #888888;
+    padding:10px;
+    padding-left: 25px;
+}
+
+.refer-friends-space{
+    margin-left:420px;
+}
+
+.copy-btn{
+    background-image: linear-gradient(#8E54E9,#4776E6);
+    color:#ffffff;
+    padding:10px;
+    border:0px solid;
+    width:100px;
+    height:50px;
+    border-radius: 28px;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+
+.copy-icon{
+    margin-top:2px;
+    margin-right: 5px;
+}
+
+.referal-text1{
+    width:10%;
+    height:30px;
+    border-radius: 25px;
+    border:1px solid #888888;
+    margin-left:30px;
+    padding:10px;
+    padding-left: 15px;
+}
+
+.company-heading{
+    color:#111928;
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.company-details{
+    color:#6B7280;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.company{
+    margin:20px;
+}
+
+.company-information{
+    display:flex;
+    justify-content: space-around;
+    width:75%;
+}
+
+.copyrights{
+    color:#6B7280;
+    display:flex;
+}
+
+.copyrights-text{
+    margin-top: 0px;
+}
+
+.social-icons{
+    color:#6B7280;
+    display:flex;
+    padding:5px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    width:60%;
+}
+
+.go-business-logo1{
+    display: flex;
+    margin-left: 65px;
+    
+}
+
+.show{
+    color:#49596D;
+    font-family: "Poppins";
+    font-size: 18px;
+}
+
+.entries-search{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    margin-left: 810px;
+}
+
+.search-entries{
+    display: flex;
+    margin-left: 210px;
+}
+
+.search-input{
+    width:100%;
+}
+
+.entries{
+    margin-left: 20px;
+}
+
+.show-entries-no{
+    display: flex;
+    margin-left: 0px;
+}
+
+.entries-border{
+    border: 1px solid #4776E6;
+    border-radius: 5px;
+    width:60px;
+    padding: 8px;
+    height:18px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #EFEFEF;
+}
+
+.entries-no{
+    margin-top: 0px;
+    margin-left: 5px;
+    color:#4776E6;
+}
+
+.search-input{
+    width:260px;
+    height:40px;
+    margin-top: 8px;
+    border-radius: 9px;
+    border: 1px solid #4776E6;
+    margin-left: 10px;
+}
+
+
+.data-table {
+    border-collapse: collapse;
+    width: 48%;
+    margin-left: 20px;
+}
+
+.service-profit{
+    margin-right: 0px;
+}
+
+.data-table th, .data-table td {
+    border-left: none;
+    text-align: left;
+    padding: 12px;
+  }
+  
+thead {
+    background-image:linear-gradient(to right ,#8E54E9  , #4776E6 );
+    border: 0px;
+    
+}
+
+th{
+    color:#ffffff;
+}
+
+.data-table th:first-child {
+    border-left: 0px; 
+  }
+  
+.table-row{
+    border: 0px, 1px, 1px, 0px;
+    border-bottom: 0.5px solid #6B7280;
+    border-right: 0.5px solid #6B7280;
+    
+  }
+
+  .table-head{
+    border: none;
+  }
+
+
+
+td{
+    color:#49596D;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22.5px;
+}
+
+.prev-next{
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 520px;
+}
+
+.previous-btn{
+    color:#4776E6;
+    background-color: transparent;
+    border:1px solid #4776E6 ;
+    padding: 8px;
+    height:30px;
+    margin-top: 12px;
+    margin-left: 10px;
+    border-radius: 5px;
+    width:65px;
+}
+
+
+
+.number-btn{
+    background-color: transparent;
+    color:#4776E6;
+    padding: 5px;
+    height:30px;
+    width:30px;
+    margin-top: 12px;
+    border:0px;
+    margin-left: 5px;
+    border:1px solid #4776E6;
+    border-radius: 5px;
+}
+
+.highlighted{
+    background-image: linear-gradient(#8E54E9,#4776E6);
+    color:#ffffff;
+    border-radius: 0px;
+}
+
+.buttons{
+    display: flex;
+    margin-left: 220px;
+    width:60%;
+}
